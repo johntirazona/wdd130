@@ -44,7 +44,6 @@ article {
   padding: 8px;
 }
 
-/* Header Layout with Grid */
 header {
   display: grid;
   grid-template-columns: auto 1fr;
@@ -54,7 +53,6 @@ header {
   gap: 2rem;
 }
 
-/* Nav with Flexbox */
 header nav {
   display: flex;
   justify-content: flex-end;
@@ -76,7 +74,6 @@ header nav a:hover {
   color: #000;
 }
 
-/* Hero Section */
 .hero {
   position: relative;
 }
@@ -138,7 +135,6 @@ header nav a:hover {
   width: 100%;
   border-radius: 8px;
 }
-/* Adventure Gallery */
 .adventure-gallery {
   display: flex;
   justify-content: space-between;
@@ -164,7 +160,6 @@ header nav a:hover {
   color: #333;
 }
 
-/* Footer */
 footer {
   display: flex;
   justify-content: space-between;
