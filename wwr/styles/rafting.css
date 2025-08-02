@@ -188,3 +188,114 @@ footer p {
   width: 24px;
   height: 24px;
 }
+
+.map-container iframe {
+  width: 100%;
+  height: 300px;
+  border: none;
+  margin-bottom: 2rem;
+}
+
+.employee-profiles {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+  color: #000;
+}
+
+.employee-profiles figure {
+  text-align: center;
+  width: 150px;
+}
+
+.employee-profiles img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.employee-profiles figcaption {
+    margin-top: 0.5rem;
+  font-weight: bold;
+  color: #333;
+}
+
+form fieldset {
+  border: 2px solid #0077cc;
+  padding: 1rem;
+  margin-bottom: 1.5rem;
+  border-radius: 8px;
+}
+
+form legend {
+  font-weight: bold;
+  font-size: 1.1rem;
+  color: #004e66;
+}
+
+.form-item {
+  margin-bottom: 1rem;
+}
+
+.column1 {
+  display: block;
+}
+
+.column2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+
+.form-item label {
+  display: block;
+  margin-bottom: 0.25rem;
+  font-weight: 500;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea,
+form select {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+form button[type="submit"] {
+  background-color: #0077cc;
+  color: white;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  font-weight: bold;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+form button[type="submit"]:hover {
+  background-color: #005fa3;
+}
+
+.contact-form button[type="submit"]:hover {
+  background-color: #005fa3;
+}
+
+.contact-info {
+  background-color: #f0f8ff;
+}
+
+.employees {
+  background-color: #ffffff;
+}
+
+.contact-form {
+  background-color: #f0f8ff; 
+}
+
+.contact-info,
+.employees,
+.contact-form {
+  padding: 2rem;
+}

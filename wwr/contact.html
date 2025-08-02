@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Interested in trying out rafting! Contact us now!">
+  <meta name="author" content="John Jenly Tirazona">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+  <title>Rafting | Contact Us</title>
+  <link rel="stylesheet" href="styles/rafting.css">
+  <script src="/fiveserver.js" async data-id="five-server" data-file="c:\Users\AY\Documents\BYU Homework Files\wdd130\wwr\about.html"></script>
+</head>
+
+<body>
+  <header>
+    <img src="images/wwr-logo.png" alt="Rafting Company Logo">
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About Us</a>
+      <a href="trips.html">Trips</a>
+      <a href="contact.html" class="active">Contact Us</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="contact-info">
+      <h2>Contact Information</h2>
+      <p>123 River Rapids Rd<br>Whitewater, CO 81230</p>
+      <p>Phone: (123) 456-7890</p>
+      <p>Email: info@raftingadventures.com</p>
+
+      <div class="map-container">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3860.957102708849!2d121.06703747590413!3d14.601519577052484!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397b7fce86c871b%3A0xc4f4f56e4b51e0f6!2sManila%20Philippines%20Temple!5e0!3m2!1sen!2sph!4v1754095097941!5m2!1sen!2sph"
+          width="600" height="450" allowfullscreen loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </section>
+
+    <section class="employees">
+      <h2>Employee Profiles</h2>
+      <div class="employee-profiles">
+        <figure>
+          <img src="images/manager-person.jpg" alt="Manager smiling">
+          <figcaption>Manager</figcaption>
+        </figure>
+        <figure>
+          <img src="images/guide-person.jpg" alt="Guide smiling">
+          <figcaption>Guide</figcaption>
+        </figure>
+        <figure>
+          <img src="images/instructor-person.jpg" alt="Instructor smiling">
+          <figcaption>Instructor</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="contact-form">
+      <h2>Send Us a Message</h2>
+      <form action="#" method="post">
+        <fieldset>
+          <legend>Contact Information</legend>
+          <div class="form-item column2">
+            <label for="fullname">Full Name:</label>
+            <input type="text" id="fullname" name="fullname" required>
+          </div>
+          <div class="form-item column2">
+            <label for="useremail">Email:</label>
+            <input type="email" id="useremail" name="useremail" required>
+          </div>
+        </fieldset>
+
+        <fieldset>
+          <legend>Message Details</legend>
+          <div class="form-item column1">
+            <label>Purpose of Message:</label>
+            <label><input type="radio" name="purpose" value="general" required> General Inquiry</label>
+            <label><input type="radio" name="purpose" value="reservation"> Reservation Question</label>
+            <label><input type="radio" name="purpose" value="website"> Website Suggestion</label>
+          </div>
+
+          <div class="form-item column1">
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="5" placeholder="Write your message here..." required></textarea>
+          </div>
+
+          <div class="form-item column1">
+            <label><input type="checkbox" name="subscribe"> Please subscribe me to the monthly newsletter</label>
+          </div>
+        </fieldset>
+
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>©2025 || Down The River Rafting || John Jenly Tirazona</p>
+    <nav class="socialmedia">
+      <a href="https://www.facebook.com">
+        <img src="images/facebook-icon.png" alt="Facebook logo">
+      </a>
+      <a href="https://x.com/">
+        <img src="images/x-icon.png" alt="X (previously Twitter) logo">
+      </a>
+      <a href="https://www.instagram.com">
+        <img src="images/instagram-icon.png" alt="Instagram logo">
+      </a>
+    </nav>
+  </footer>
+</body>
+
+</html>
