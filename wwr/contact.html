@@ -26,6 +26,7 @@
   </header>
 
   <main>
+    <h1>Contact Us!</h1>
     <section class="contact-info">
       <h2>Contact Information</h2>
       <p>123 River Rapids Rd<br>Whitewater, CO 81230</p>
@@ -61,10 +62,12 @@
       <form action="#" method="post">
         <fieldset>
           <legend>Contact Information</legend>
+
           <div class="form-item column2">
             <label for="fullname">Full Name:</label>
             <input type="text" id="fullname" name="fullname" required>
           </div>
+
           <div class="form-item column2">
             <label for="useremail">Email:</label>
             <input type="email" id="useremail" name="useremail" required>
@@ -73,11 +76,21 @@
 
         <fieldset>
           <legend>Message Details</legend>
+
           <div class="form-item column1">
-            <label>Purpose of Message:</label>
-            <label><input type="radio" name="purpose" value="general" required> General Inquiry</label>
-            <label><input type="radio" name="purpose" value="reservation"> Reservation Question</label>
-            <label><input type="radio" name="purpose" value="website"> Website Suggestion</label>
+            <p>Purpose of Message:</p>
+            <label for="purpose-general">
+              <input type="radio" id="purpose-general" name="purpose" value="general" required>
+              General Inquiry
+            </label>
+            <label for="purpose-reservation">
+              <input type="radio" id="purpose-reservation" name="purpose" value="reservation">
+              Reservation Question
+            </label>
+            <label for="purpose-website">
+              <input type="radio" id="purpose-website" name="purpose" value="website">
+              Website Suggestion
+            </label>
           </div>
 
           <div class="form-item column1">
@@ -86,7 +99,8 @@
           </div>
 
           <div class="form-item column1">
-            <label><input type="checkbox" name="subscribe"> Please subscribe me to the monthly newsletter</label>
+            <input type="checkbox" id="subscribe" name="subscribe">
+            <label for="subscribe">Please subscribe me to the monthly newsletter</label>
           </div>
         </fieldset>
 
