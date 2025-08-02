@@ -210,6 +210,11 @@ main h1 {
   margin-bottom: 2rem;
 }
 
+.employees h2 {
+  color: #004e66;
+  text-align: center;
+}
+
 .employee-profiles {
   display: flex;
   justify-content: space-around;
@@ -225,6 +230,7 @@ main h1 {
 }
 
 .employee-profiles img {
+  margin-top: 2rem;
   width: 100%;
   border-radius: 10px;
 }
