@@ -475,6 +475,13 @@ form button[type="submit"]:hover {
   font-size: 2rem;
 }
 
+.trip-card h3 {
+  padding: 0.5rem 1rem 0;
+  font-size: 1.2rem;
+  color: #222; /* Darker text for better contrast */
+  font-weight: bold;
+}
+
 .trip-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr); /* Always 3 per row on large screens */
@@ -526,8 +533,17 @@ form button[type="submit"]:hover {
 
 .trip-table h2 {
   font-family: 'Luckiest Guy', cursive;
-  color: #00a98f;
+  color: #003366;
   margin-bottom: 1rem;
+}
+
+.trips h2 {
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #003366; 
+  font-weight: 900;
+  text-transform: uppercase;
 }
 
 .trip-table table {
@@ -554,4 +570,25 @@ form button[type="submit"]:hover {
 
 .trip-table tr:hover {
   background-color: #f9f9f9;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 2rem;
+}
+
+.trip-table td {
+  padding: 1rem;
+  border: 1px solid #ccc;
+}
+
+.trip-table th {
+  background-color: #004d40; /* Dark teal */
+  color: #fff; /* White text for strong contrast */
+}
+
+.trip-table td {
+  background-color: #fafafa; /* Light gray background */
+  color: #222; /* Dark text for readability */
 }
