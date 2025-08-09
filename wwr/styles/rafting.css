@@ -332,3 +332,226 @@ form button[type="submit"]:hover {
   font-weight: bold;
   margin-bottom: 1rem;
 }
+
+.home-hero {
+  position: relative;
+  text-align: center;
+}
+
+.home-hero img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.hero-text {
+  position: absolute;
+  top: 5%;
+  left: 50%;
+  transform: translateX(-50%);
+  color: white;
+  font-size: 1.8rem; /* smaller font */
+  font-family: 'Luckiest Guy', cursive;
+  background-color: #004466;
+  padding: 8px 15px;
+  border-radius: 5px;
+  max-width: 90%; 
+  line-height: 1.4; 
+}
+
+/* NEWSLETTER */
+.newsletter {
+  text-align: center;
+  padding: 2rem;
+}
+.newsletter form {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+.newsletter input,
+.newsletter button {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+}
+.newsletter button {
+  background-color: #004466;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+/* CTA */
+.cta {
+  background: linear-gradient(135deg, #0d3b66, #145da0); /* deep blue gradient for contrast */
+  color: white;
+  text-align: center;
+  padding: 40px 20px;
+  border-radius: 8px;
+  margin: 40px 0;
+}
+
+.cta h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.btn-cta {
+  background-color: #ffcb05; /* bright yellow to pop against blue */
+  color: #000;
+  text-decoration: none;
+  padding: 12px 25px;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 1.2rem;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.btn-cta:hover {
+  background-color: #f5b700;
+  transform: translateY(-3px);
+}
+
+/* GRID INFO */
+.grid-info {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1.5rem;
+  padding: 2rem;
+}
+.grid-info img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.info-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+  margin: 40px 0;
+}
+
+.info-card {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+  background: #f8f8f8;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.info-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.info-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.info-card h2 {
+  margin: 15px;
+  font-size: 1.4rem;
+}
+
+.info-card p {
+  margin: 0 15px 15px;
+  font-size: 1rem;
+  line-height: 1.4;
+}
+
+.trips {
+  padding: 2rem;
+  text-align: center;
+}
+
+.trips h2 {
+  margin-bottom: 2rem;
+  font-size: 2rem;
+}
+
+.trip-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Always 3 per row on large screens */
+  gap: 1.5rem;
+}
+
+.trip-card {
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  text-align: left;
+}
+
+.trip-card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+.trip-card h3 {
+  padding: 0.5rem 1rem 0;
+  font-size: 1.2rem;
+}
+
+.trip-card p {
+  padding: 0 1rem 1rem;
+  color: #555;
+}
+
+/* Tablet */
+@media (max-width: 900px) {
+  .trip-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+  .trip-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.trip-table {
+  padding: 2rem;
+  text-align: center;
+}
+
+.trip-table h2 {
+  font-family: 'Luckiest Guy', cursive;
+  color: #00a98f;
+  margin-bottom: 1rem;
+}
+
+.trip-table table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 0 auto;
+  background: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.trip-table th, 
+.trip-table td {
+  padding: 0.75rem;
+  border-bottom: 1px solid #ddd;
+}
+
+.trip-table th {
+  background-color: #00a98f;
+  color: #fff;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.trip-table tr:hover {
+  background-color: #f9f9f9;
+}
